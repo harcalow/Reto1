@@ -19,7 +19,8 @@ def main():
     match option:
         case 1:
             name_archive = input("Opción 1 Crear un archivo \n Ingrese el nombre con extensión del archivo a crear: \n ->")
-            archive_one=Archive(name_archive)
+            text_archive = input("Ingrese contenido del archivo: \n ->")
+            archive_one=Archive(name_archive,text_archive)
             archive_one.create()
         case 2:
             print("Opción 2 Listar archivos:")

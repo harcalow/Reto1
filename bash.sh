@@ -3,7 +3,7 @@ option=$2
 if [ "$2" = "1" ]; then 
     echo "Creando archivo $1"
     touch $1
-    echo "Texto que deseas agregar al archivo" > $1
+    echo "$3" > $1
 elif [ "$2" = "2" ]; then
     echo "Listando archivos"
     ls 
