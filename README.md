@@ -13,3 +13,8 @@ Crear una aplicación que permita crear, listar y eliminar archivos en un direct
 
 Un script en Python que implemente la lógica principal usando la programación orientada a objetos.
 Un script en Bash que interactúe con el script en Python para realizar las operaciones desde la línea de comandos.
+
+
+Para la ejecución del programa usar sistema Linux, Unix or Mac
+Si se llega presentar error en el bash dar permisos en la consola con el siguiente comando chmod +x bash.sh
+Ejecutar archivo main.py
